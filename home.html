@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+  <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-primary-subtle"
+
+  <div class="container-fluid">
+    <a class="navbar-brand text-primary-emphasis" 
+     href="#">Globe Trots</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary-emphasis " href="about.html">About</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="reviews.html">Reviews</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-primary-emphasis " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Packages
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="solo outing.html">Solo outing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="family trip.html">Family Trip</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="customizable.html">Customizable</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!--slider  -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" style="height: 90vh;">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2019/10/01/14/05/landscape-4518381_1280.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2018/11/29/21/19/hamburg-3846525_640.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_640.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--progress bar/ package purchase rates  -->
+<div class="m-5px p-5px d-flex flex-column gap-3" >
+  <h1 class="text-center display-4" >Package Purchasing Rates</h1>
+  <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-success width-200px" style="width: 15%">Solo outing- 10%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-info text-dark" style="width: 30%">Famiy trip-30%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-warning text-dark" style="width: 50%">Group long drive-30%</div>
+</div>
+<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-danger" style="width: 40%">Customizable-30%</div>
+</div>
+      
+</div>
+
+
+
+
+<!-- booking form -->
+<div class="row m-5">
+  <h1 class="fst-italic text-center col-12" >Start Exploring Today</h1>
+  <h2 class="fst-italic text-center col-12">Book our packages to have a mesmerizing journey across continents and beyond!</h2>
+  <img class="col-6" src="https://st2.depositphotos.com/1023102/11316/i/450/depositphotos_113160684-stock-photo-collage-of-india-images-travel.jpg" alt="">
+    
+  
+<form class="row g-3 col-6">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Phone number</label>
+    <input type="tel" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+   <label for="inputState" class="form- 
+label">Country</label>
+      <option selected>Bangladesh</option>  
+  </div>
+  
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Division</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Dhaka</option>
+      <option>Chittagong</option>
+      <option>Rajshahi</option>
+      <option>Rangpur</option>
+      <option>Mymensingh</option>
+      <option>Sylhet</option>
+      <option>Khulna</option>
+      <option>Barishal</option>
+      
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        I agree to all the Terms and Conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Book Now</button>
+  </div>
+</form>  
+</div>
+
+
+    
+<!--places Cards  -->
+<!--Places Cards, row-1  -->
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/11/14/architecture-1869125_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Eiffel Tower</h4>
+        <h5 class="location">Paris,France</h5>
+        <p class="card-text">The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889</p>
+      </div>
+      <div class="card-footer ">
+        <button class="btn btn-primary disabled w-100">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2020/08/12/19/28/great-wall-of-china-5483516_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">The Great Wall</h4>
+        <h5 class="location">Beijing, China</h5>
+        <p class="card-text">The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe.</p>
+      </div>
+      <div class="card-footer">
+       <button class="btn btn-primary disabled w-100">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2023/12/15/22/37/mountains-8451480_1280.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Mountain Meadows</h4>
+        <h5 class="location">California, America</h5>
+        <p class="card-text">Mountain Meadow or Mountain Meadows, is an area in present-day Washington County, Utah. It was a place of rest and grazing used by pack trains and drovers, on the Old Spanish Trail and later Mormons, Forty-niners, mail riders, migrants and teamsters on the Mormon Road on their way overland between Utah and California.
+
+</p>
+      </div>
+      <div class="card-footer">
+       <button class="btn btn-primary disabled w-100">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Places Cards, row-2  -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2021/10/07/19/25/india-6689615_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Taj Mahal</h4>
+        <h5 class="location">Agra, India</h5>
+        <p class="card-text">The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.</p>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-primary disabled w-100">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2019/03/18/17/58/waves-4063684_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Cox's Bazar</h4>
+        <h5 class="locaion">Chittagong, Bangladesh</h5>
+        <p class="card-text">Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island. </p>
+      </div>
+      <div class="card-footer"><button class="btn btn-primary disabled w-100">Book Now</button>
+        
+        
+      </div>
+    </div>
+  </div>
+  <div class="col shadow">
+    <div class="card h-100">
+      <img src="https://cdn.pixabay.com/photo/2022/03/08/05/59/ancient-town-7055047_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Wuzhen</h4>
+        <h5 class="location">Zhejiang Province,China</h5>
+        <p class="card-text">Wuzhen is a historic scenic town, part of Tongxiang,which lies within the triangle formed by Hangzhou, Suzhou and Shanghai. Covering an area of 71.19 km², Wuzhen has a total population of 60,000, of which 12,000 are permanent residents. </p>
+      </div>
+      <div class="card-footer">
+       <button class="btn btn-primary disabled w-100">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!--FAQ section-->
+    <h1 class="text-center display-5">Frequently Asked Questions</h1>
+    <div class="accordion accordion-flush m-5 p-5 border border-light-subtle" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       <h5>How can I book a package abroad?</h5>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <h5>What are the payment procedures of "Globe Trots"?</h5>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       <h5> What is the price range for family trips?</
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>  
+  </div>
+</div>
+
+
+
+
+      <!-- footer section -->
+<div class="row m-0 p-0" >
+    
+    <img class="col-6 m-0 p-0" src="https://marketplace.canva.com/EAFATOL1oSE/1/0/1600w/canva-gray-travel-mountain-photo-collage-55w0tVtFTBE.jpg" alt="">
+      <!-- "https://as2.ftcdn.net/v2/jpg/01/61/25/43/1000_F_161254325_TBwAKCLTULjkHeBX9NqQG2hjOA5cZZ5t.jpg"  alt="" -->
+  
+    <div class="col-6">
+      <table class="table table-success table-striped ">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Services</th>
+      <th scope="col">Locations</th>
+      <th scope="col">Agencies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Atlantic Sea cruise</td>
+      <td>US & Canadian Landwaters</td>
+      <td>@Sunshine Trusteeship</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Japaneese Cultural Visit</td>
+      <td>Tokyo,Kyoto & Shibuiya</td>
+      <td>@Ohayo Travels</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Thailand Trip</td>
+      <td>Bangkok, Phuket & Pataya</td>
+      <td>@FiHu Twineese</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Turkie Tour</td>
+      <td>Istanbul, Antalya & Bodrum</td>
+      <td>@Step Turkiss</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Nepalyan Hikes</td>
+      <td>Kathmandu, Pokhara & Lumbini</td>
+      <td>@Fuji Radars</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Scandinavian Sightseeing</td>
+      <td>Norway, Sweden & Finland</td>
+      <td>@Tyber Olkep</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>London Treks</td>
+      <td>Amsterdam Abbey & Brittish Muesuem</td>
+      <td>@Latvian Surf</td>
+    </tr>
+     <tr>
+      <th scope="row">8</th>
+      <td>Canada By Road</td>
+      <td>Ontario, Ottawa & Toronto</td>
+      <td>@Thornton blu</td>
+    </tr>
+     <tr>
+      <th scope="row">9</th>
+      <td>Australia by Rail </td>
+      <td>Melbourne, Sydney & Canberra</td>
+      <td>@Oceania Falls</td>
+    </tr>
+     <tr>
+      <th scope="row">10</th>
+      <td>India</td>
+      <td>Mumbai,New Delhi & Seven Sisters</td>
+      <td>@Bharatbongo.indica</td>
+    </tr>
+     <tr>
+      <th scope="row">11</th>
+      <td>US's 12 state Long drive</td>
+      <td>California, New York & Los Angels</td>
+      <td>@Clintsten Tourism</td>
+    </tr>
+     <tr>
+      <th scope="row">12</th>
+      <td>Egyptian Expedition</td>
+      <td>Nile, Cairo & Giza</td>
+      <td>@Ar-Rahman Injil</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
